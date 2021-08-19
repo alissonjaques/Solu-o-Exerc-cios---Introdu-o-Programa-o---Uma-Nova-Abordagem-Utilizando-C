@@ -1,0 +1,20 @@
+Troca de pneu de um carro
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Descrição: troca pneu estragado de um carro
+Dados de entrada: carro de quatro rodas, uma ou mais roda estragada, chave de parafuso presente no carro, macaco e pneus novos
+Dados de saída: carro parado com pneus em estado de uso.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente "troca pneu estragado de um carro"
+
+	Pegar o macaco
+	Elevar o carro com o macaco
+	Pegar a chave de parafuso
+	Desparafusar o pneu estragado
+	Retirar o pneu estragado
+	Inserir o pneu novo
+	Pegar a chave de parafuso
+	Parafusar o pneu novo
+	Tirar a Elevação do carro
+	Retirar macaco
+
+FIM
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

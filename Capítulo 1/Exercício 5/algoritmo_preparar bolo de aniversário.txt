@@ -1,0 +1,61 @@
+Obter Bolo de Aniversário
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Dados de entrada: 2 xícaras (chá) de açúcar, 3 xícaras (chá) de farinha de trigo, 4 colheres (sopa) de margarina, 3 ovos, 1 e 1/2 xícara (chá) de leite, 1 colher (sopa) bem cheia de fermento em pó
+Dados de saída: Bolo de Aniversário
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente "modo de preparo"
+	
+	Bata as claras em neve e reserve
+	Misture as gemas, a margarina e o açúcar até obter uma massa homogênea
+	Acrescente leite e a farinha de trigo aos poucos, sem parar de bater
+	Adicione as claras em neve e o fermento
+	Despeje a massa em uma forma grande de furo central untada e enfarinhada
+	Asse em forno médio de 180°C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saía limpo
+
+FIM
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente para obtenção das claras em neve
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Processo Componente "bater as claras em neve e reservar"
+
+	Pegue os três ovos
+	Faça um pequeno furo nos ovos
+	Separe a claras das gemas dos ovos
+	Bata as claras dos ovos até ter o aspecto em neve
+	Reserve as gemas
+	Reserve as claras em neve
+
+FIM
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente para separação da gemas das claras dos ovos
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Processo componente "separar as claras das gemas dos ovos"
+
+	Pegue duas vasilhas de porte pequeno no ármario
+	Pegue os ovos furados e incline-os para que a clara caia em uma das vasilhas
+	Pegue os ovos sem clara, tire a casca e deposite as gemas nas outras vasilhas
+FIM
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente reservar as claras em neve
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente "reserve as claras de neve"
+
+	Reservar as claras em neve até o momento de utilizá-las com o fermento
+
+FIM
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Processo componente despejar a massa em uma forma grande de furo central untada e enfarinhada
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Processo componente "despeje a massa em uma forma grande de furo central untada e enfarinhada"
+	
+	Pegar uma forma grande de furo central no ármario
+	Untar a forma
+	Enfarinhar a forma untada
+	Despejar a massa na forma
+
+FIM
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

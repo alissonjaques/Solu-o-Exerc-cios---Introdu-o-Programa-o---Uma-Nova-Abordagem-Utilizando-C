@@ -1,0 +1,18 @@
+Processo componente para mostrar uma tabela de graus centígrados em função de graus fahrenheit
+===========================================================================================================================
+Descrição: converter valores em graus fahrenheit para graus celsius e mostrar ambos em um formato de tabela
+Dados de entrada: não possuí.
+Saída do programa: exibir uma tabela com 151 linhas contendo, cada uma, uma temperatura em graus fahrenheit e outra, corre-
+spondente, em graus celsius.
+===========================================================================================================================
+Processo componente "fahrenheit para celsius"
+	
+	PARA enquanto não percorrer 151 ciclos FAÇA
+		
+		calcular graus celsius
+		mostrar graus fahrenheit e graus celsius
+	
+	FIM-PARA
+	
+FIM - Processo componente "fahrenheit para celsius"
+===========================================================================================================================
