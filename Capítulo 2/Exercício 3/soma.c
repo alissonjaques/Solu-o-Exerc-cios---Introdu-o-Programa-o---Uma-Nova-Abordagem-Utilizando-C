@@ -3,7 +3,7 @@
 /*
 
     A funcao main permite a execucao desse programa, ela nao
-    recebe nenhum argumento e calcula o resulta da soma
+    recebe nenhum argumento e calcula o resultado da soma
     S = 1/1 + 3/2 + 5/3 + ... + 99/50
 	
 	Autor: Alisson Jaques
