@@ -23,54 +23,54 @@ int main(){
         valorCorrentistaComSegundoMaiorSaldo = -9000000;
 
         do{
-        
-        printf("Valor Operacao: ");
-        scanf("%f", &valorDaOperacao);
 
-        if(valorDaOperacao>20000){
+            printf("Valor Operacao: ");
+            scanf("%f", &valorDaOperacao);
 
-            printf("Operacao suspeita encontrada | conta : %d | R$%f\n", numeroDaConta,valorDaOperacao);
+            if(valorDaOperacao>20000){
 
-        }
+                printf("Operacao suspeita encontrada | conta : %d | R$%f\n", numeroDaConta,valorDaOperacao);
 
-        if(contaAnterior == numeroDaConta){
+            }
 
-            saldoDaConta = saldoDaConta + valorDaOperacao;
+            if(contaAnterior == numeroDaConta){
 
-        }
-        else{
-
-            printf("Saldo das Operacoes | conta: %d | saldo: R$%f\n", contaAnterior, saldoDaConta);
-
-            if(saldoDaConta > valorCorrentistaComMaiorSaldo){
-
-                idCorrentistaSegundoMaiorSaldo = idCorrentistaMaiorSaldo;
-                idCorrentistaMaiorSaldo = contaAnterior;
-                valorCorrentistaComSegundoMaiorSaldo = valorCorrentistaComMaiorSaldo;
-                valorCorrentistaComMaiorSaldo = saldoDaConta;
+                saldoDaConta = saldoDaConta + valorDaOperacao;
 
             }
             else{
 
-                if(saldoDaConta > valorCorrentistaComSegundoMaiorSaldo){
+                printf("Saldo das Operacoes | conta: %d | saldo: R$%f\n", contaAnterior, saldoDaConta);
 
-                    idCorrentistaSegundoMaiorSaldo = contaAnterior;
-                    valorCorrentistaComSegundoMaiorSaldo = saldoDaConta;
+                if(saldoDaConta > valorCorrentistaComMaiorSaldo){
+
+                    idCorrentistaSegundoMaiorSaldo = idCorrentistaMaiorSaldo;
+                    idCorrentistaMaiorSaldo = contaAnterior;
+                    valorCorrentistaComSegundoMaiorSaldo = valorCorrentistaComMaiorSaldo;
+                    valorCorrentistaComMaiorSaldo = saldoDaConta;
+
+                }
+                else{
+
+                    if(saldoDaConta > valorCorrentistaComSegundoMaiorSaldo){
+
+                        idCorrentistaSegundoMaiorSaldo = contaAnterior;
+                        valorCorrentistaComSegundoMaiorSaldo = saldoDaConta;
+
+                    }
 
                 }
 
+                saldoDaConta = valorDaOperacao;
+
             }
 
-            saldoDaConta = valorDaOperacao;
+            saldoTotalDasOperacoes = saldoTotalDasOperacoes + valorDaOperacao;
 
-        }
+            contaAnterior = numeroDaConta;
 
-        saldoTotalDasOperacoes = saldoTotalDasOperacoes + valorDaOperacao;
-
-        contaAnterior = numeroDaConta;
-
-        printf("Conta: ");
-        scanf("%d", &numeroDaConta);
+            printf("Conta: ");
+            scanf("%d", &numeroDaConta);
 
         }while(numeroDaConta != 0);
 
