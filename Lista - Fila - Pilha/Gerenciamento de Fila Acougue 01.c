@@ -4,7 +4,7 @@
 			  inteiro: 2 - Chamar Cliente
 			  inteiro: 3 - Mostrar Fila de Espera
 	Saídas: Fila de espera em ordem de chegada
-	Autores: Alisson Jaques e Deivid Camargos
+	Autor: Alisson Jaques
 */
 
 #include<stdio.h>  /* Biblioteca para entrada e saida de dados */
