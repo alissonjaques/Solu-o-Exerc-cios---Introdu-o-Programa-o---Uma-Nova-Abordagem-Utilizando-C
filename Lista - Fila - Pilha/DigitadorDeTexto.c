@@ -3,7 +3,7 @@
 	Entradas: opcao para escrever uma linha de texto, linha de texto, opcao para excluir uma linha,
 	opcao para mostrar o texto e opcao para sair da aplicacao.
 	Saida: o texto digitado ate o momento
-	Autores: Alisson Jaques e Deivid Camargos
+	Autor: Alisson Jaques
 */
 
 #include <stdio.h>  /* Biblioteca para entrada e saida de dados */
