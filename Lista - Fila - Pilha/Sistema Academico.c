@@ -10,7 +10,7 @@
 	alunos, ordenada em ordem descrescente de score, no terminal e impressao da 
 	posicao do aluno.
 	
-	Autores: Alisson Jaques e Deivid Camargos
+	Autor: Alisson Jaques
 */
 /*
 	A estrutura Aluno que possui campos que representam um aluno
