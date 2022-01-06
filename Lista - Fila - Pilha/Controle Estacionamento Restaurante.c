@@ -1,6 +1,6 @@
 /* Programa que manipula uma Lista duplamente encadeada para controle de
    estacionamento de restaurante.
-   Autores: Alisson Jaques e Deivid Camargos
+   Autor: Alisson Jaques
  */
 #include <stdio.h>
 #include <stdlib.h>
