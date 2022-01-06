@@ -5,7 +5,7 @@
 			  inteiro: 3 - Mostrar fila de espera
 			  inteiro: 4 - Mostrar fila de espera do fim para o inicio
 	Saídas: Fila de espera em ordem de chegada, fila de espera do fim para o inicio
-	Autores: Alisson Jaques e Deivid Camargos
+	Autor: Alisson Jaques
 */
 
 #include<stdio.h>  /* Biblioteca para entrada e saida de dados */
