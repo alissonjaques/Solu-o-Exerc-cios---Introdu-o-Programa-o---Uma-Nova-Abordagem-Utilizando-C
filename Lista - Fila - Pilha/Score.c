@@ -33,7 +33,7 @@
 	reordena-lo na lista. A opcao 3 sera somente mostrar a lista que ja estara
 	ordenada decrescente pelo score de cada cliente.
 
-    Autores: Alisson Jaques e Gustavo Henrique Nogueira Costa
+    Autor: Alisson Jaques
 
 */
 
