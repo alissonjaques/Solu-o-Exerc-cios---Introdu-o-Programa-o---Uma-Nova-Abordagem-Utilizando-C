@@ -1,6 +1,6 @@
 /*
 
-estritamente binaria  = Quando todos os nao tem dois filhos com excesscao dos nos
+estritamente binaria  = Quando todos os nodos tem dois filhos com excessao dos nos
 folhas
 
 arvore N area = AEDs III 
@@ -100,7 +100,7 @@ void InsereArvore(Arvore *raiz)
 }
 
 /*
-	Quest„o b): algoritmo recursivo para mostrar o numero de nos em uma arvore binaria
+	Quest√£o b): algoritmo recursivo para mostrar o numero de nos em uma arvore binaria
 */
 int TotalNodoArvore(Arvore *raiz)
 {
@@ -145,10 +145,10 @@ void Liberapilha(Pilha *cabeca){
 } 
 
 /*
-	Questao C) algoritmo n„o-recursivo para mostrar o n˙mero de nÛs em uma ·rvore bin·ria
+	Questao C) algoritmo n√£o-recursivo para mostrar o n√∫mero de n√≥s em uma √°rvore bin√°ria
 */ 
 void TotalNodosSemRecursao(Arvore *raiz) {
-   criapilha ();  // pilha de nÛs 
+   criapilha ();  // pilha de n√≥s 
    empilha (raiz);
    Arvore *x;
    while (true) {
@@ -183,12 +183,12 @@ void TotalNodoValorArvore(Arvore *raiz)
 }
 
 /*
-	Questao e): algoritmo n„o-recursivo para mostrar a soma do [Valor] de todos os nos em uma arvore binaria
+	Questao e): algoritmo n√£o-recursivo para mostrar a soma do [Valor] de todos os nos em uma arvore binaria
 	Solucao:
 */
 void TotalNodoValorArvoreSemRecursao(Arvore *raiz) {
    soma = 0;
-   criapilha ();  // pilha de nÛs 
+   criapilha ();  // pilha de n√≥s 
    empilha (raiz);
    Arvore *x;
    while (true) {
@@ -208,7 +208,7 @@ void TotalNodoValorArvoreSemRecursao(Arvore *raiz) {
 }
 
 /* 
-	Questao f) algoritmo recursivo para mostrar A profundidade de uma ·rvore binaria
+	Questao f) algoritmo recursivo para mostrar A profundidade de uma √°rvore binaria
 */
 int ArvoreAltura(Arvore *raiz)
 {
