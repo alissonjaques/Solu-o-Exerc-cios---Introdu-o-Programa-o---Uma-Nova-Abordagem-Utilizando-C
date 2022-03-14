@@ -1,22 +1,22 @@
 /*
 
-estritamente binaria  = Quando todos os nodos tem dois filhos com excessao dos nos
-folhas
+	estritamente binaria  = Quando todos os nodos tem dois filhos com excessao dos nos
+	folhas
 
-arvore N area = AEDs III 
+	arvore N area = AEDs III 
 
-completa  = e quando todos os nao tem dois filhos com excesscao dos nos folhas
+	completa  = e quando todos os nao tem dois filhos com excesscao dos nos folhas
 
-altura de uma Arvore = A altura de um no x em uma arrvore binaria eh a distancia
-entre x e o seu descendente mais afastado. Mais precisamente, a altura de x eh o 
-numero de passos no mais longo caminho que leva de x ate uma folha.
+	altura de uma Arvore = A altura de um no x em uma arrvore binaria eh a distancia
+	entre x e o seu descendente mais afastado. Mais precisamente, a altura de x eh o 
+	numero de passos no mais longo caminho que leva de x ate uma folha.
 
-quase completa = Se a diferenca de altura entre as sub-arvores de qualquer no eh 
-no maximo 1.
+	quase completa = Se a diferenca de altura entre as sub-arvores de qualquer no eh 
+	no maximo 1.
 
-profundidade = A profundidade de um no eh a distancia deste no ate a raiz. 
-Um conjunto de nos com a mesma profundidade eh denominado nivel da arvore.
-A maior profundidade de um no, eh a altura da avore.
+	profundidade = A profundidade de um no eh a distancia deste no ate a raiz. 
+	Um conjunto de nos com a mesma profundidade eh denominado nivel da arvore.
+	A maior profundidade de um no, eh a altura da avore.
 
 */
 #include<stdio.h>
@@ -32,14 +32,14 @@ int contadorNodos;
 
 
 struct Nodo{
-	int chave;
+    int chave;
     int valor;
     struct Nodo *esq;
     struct Nodo *dir;
 };
 
 typedef struct reg{
-	Arvore *nodo;
+    Arvore *nodo;
     struct reg *prox;
 }Pilha;
 
@@ -51,14 +51,14 @@ Pilha *cabeca;
 */
 void InsereArvore(Arvore *raiz)
 {	
-	int chave = 0;
+    int chave = 0;
     int valor = 0;
     printf("Informe uma chave: ");
     scanf("%i", &chave);
     printf("Informe um valor: ");
     scanf("%i", &valor);
     
-	int retorno = 0;
+    int retorno = 0;
     if(raiz != NULL)
     {	    	
         struct Nodo* novo = (struct Nodo*)malloc(sizeof(struct Nodo));
