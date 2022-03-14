@@ -24,7 +24,6 @@ A maior profundidade de um no, eh a altura da avore.
 #include<String.h>
 #include<stdbool.h>
 #include<locale.h>
-#include<string.h>
 
 typedef struct Nodo* Arvore;
 
