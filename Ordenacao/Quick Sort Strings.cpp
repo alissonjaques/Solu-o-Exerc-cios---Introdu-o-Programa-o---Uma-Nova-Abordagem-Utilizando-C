@@ -60,7 +60,7 @@ int main(){
 	printf("String de saida ordenada: ");
 	
 	quickSort(linha,0,strlen(linha)-1);
-	printf({"%s\n}",linha);
+	printf({"%s}\n",linha);
 	
 	system("pause");
 	return 0;
