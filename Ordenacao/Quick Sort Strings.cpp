@@ -7,7 +7,7 @@
 
 /*
 	Cada caractere é representado por um número inteiro e possui uma ordem consecutiva em
-	ASCII, então basta trocar o vetor de inteiro no algoritmo QuickSort	para um vetor de char.
+	ASCII, então basta trocar o vetor de inteiro no algoritmo QuickSort para um vetor de char.
 	
 	Autor: Alisson Jaques
 	Entrada: um texto qualquer
