@@ -50,9 +50,9 @@ int main(){
 	
 	char linha[MAX];
 	printf("Informe o texto: ");
-    gets(linha);
-    fflush(stdin);
-    printf("\n");
+	gets(linha);
+	fflush(stdin);
+	printf("\n");
 	printf("\nString de entrada: ");
 	
 	printf("{%s}\n",linha);
