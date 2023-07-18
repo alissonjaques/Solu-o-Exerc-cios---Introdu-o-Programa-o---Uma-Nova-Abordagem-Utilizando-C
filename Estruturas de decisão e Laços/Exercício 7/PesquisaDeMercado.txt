@@ -1,0 +1,61 @@
+Processo componente para saber se as pessoas gostaram ou não de um deteterminado produto
+Autor: Alisson Jaques
+====================================================================================================================================
+Descrição: Pesquisa de mercado sobre um determinado produto
+Dados de entrada: Sexo do entrevistado e resposta de gosto sobre o produto
+Saída do programa: O número de pessoas que responderam sim
+				   O número de pessoas que responderam não
+				   A porcentagem de pessoas do sexo feminino que responderam sim
+				   A porcentagem de pessoas do sexo masculino que responderam não
+====================================================================================================================================
+Processo componente "pesquisa de mercado"
+
+	PARA enquanto não entrevistar 2000 pessoas FAÇA
+	
+		obter o sexo
+		obter o gosto
+		
+		SE sexo for feminino ENTÃO
+		
+			quantidadeFeminino recebe mais uma unidade
+		
+		SENÃO
+			
+			quantidadeMasculino recebe mais uma unidade
+		
+		FIM-SE
+		
+		SE gosto for sim ENTÃO
+			
+			quantidadeSim recebe mais uma unidade
+	
+			SE sexo for feminino ENTÃO
+				
+				quantidadeFemininoSim recebe mais uma unidade
+				
+			FIM-SE
+		
+		SENÃO
+			
+			quantidadeNao recebe mais uma unidade
+			
+			SE sexo for masculino ENTÃO
+				
+				quantidadeMasculinoNao recebe mais uma unidade
+				
+			FIM-SE
+		
+		FIM-SE
+		
+	FIM-PARA
+	
+	porcentagemFemininoSim = (quantidadeFemininoSim/quantidadeFeminino)*100;
+	porcentagemMasculinoNao = (quantidadeMasculinoNao/quantidadeMasculino)*100;
+	
+	imprimir quantidadeSim
+	imprimir quantidadeNao
+	imprimir porcentagemFemininoSim
+	imprimir porcentagemMasculinoNao
+	
+FIM - Processo componente "pesquisa de mercado	"
+	
